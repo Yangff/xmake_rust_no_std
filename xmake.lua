@@ -1,5 +1,4 @@
 add_rules("mode.debug", "mode.release")
-set_arch("x86_64-unknown-none")
 set_languages("clatest", "cxx20")
 includes("rsystem")
 target("test")
